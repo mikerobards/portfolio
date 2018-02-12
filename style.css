@@ -1,0 +1,126 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9baef2, #5a7bee);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9baef2, #5a7bee);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content-wrapper {
+    margin: 50px;
+}
+
+header,
+footer {
+    color: #FFF;
+    letter-spacing: 1.5px;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin: 20px 0 30px 0;
+}
+
+.card {
+    margin: 20px;
+    padding: 50px;
+}
+
+.fa-icon {
+    color: #000;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.social-round-icon {
+    border: 1px solid #000;
+    border-radius: 25% 10%;
+    padding: 5px;
+}
+
+.social-buttons a {
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    color: #000;
+}
+
+.social-buttons a:hover {
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+.social-buttons a:hover .social-round-icon {
+    background-color: #2F80ED;
+    color: #fff;
+    border-color: #2F80ED;
+}
+
+.social-buttons span {
+    margin-right: 10px;
+    color: #000;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.logo img {
+    height: 64px;
+    width: 64px;
+}
+
+.node img {
+    width: 104px;
+}
+
+.express img {
+    width: 200px;
+}
+
+.mongo img {
+    width: 242px;
+}
+
+.office img {
+    width: 139px;
+}
+
+.vs img {
+    height: 32px;
+    width: 191px;
+}
+
+.tech {
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.logo {
+    flex: 1 30%;
+    padding: 2%;
+}
+
+.footer-container {
+    color: #FFF;
+    padding: 20px 0 30px;
+    display: block;
+    line-height: 1.58;
+    margin: 50px auto;
+}
+
+header .fa-icon,
+footer .fa-icon {
+    color: #fff;
+}
