@@ -1,11 +1,8 @@
 body {
     font-family: 'Rubik', sans-serif;
     background: #56CCF2;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #9baef2, #5a7bee);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #9baef2, #5a7bee);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .content-wrapper {
@@ -26,6 +23,30 @@ footer {
 .card {
     margin: 20px;
     padding: 50px;
+}
+
+.slideshow img {
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(230, 230, 230, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(230, 230, 230, 1);
+    box-shadow: 10px 10px 5px 0px rgba(230, 230, 230, 1);
+}
+
+.mySlides a {
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    color: #000;
+}
+
+.mySlides a:hover {
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+.text {
+    margin: 12px 0;
+    text-align: center
 }
 
 .fa-icon {
@@ -113,11 +134,23 @@ footer {
 }
 
 .footer-container {
-    color: #FFF;
+    color: #fff;
     padding: 20px 0 30px;
     display: block;
     line-height: 1.58;
     margin: 50px auto;
+}
+
+.footer-container a {
+    color: #fff;
+}
+
+.footer-container a:hover {
+    text-decoration-line: none;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    color: #2F80ED;
 }
 
 header .fa-icon,
